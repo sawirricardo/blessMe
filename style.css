@@ -1,0 +1,69 @@
+body {
+  margin: 0 auto;
+  max-width: 50em;
+  font-family: "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  padding: 4em 1em;
+  color: #555;
+  text-align: center;
+}
+
+#date {
+    margin-top: 1em;
+    font-size: 2em;
+}
+
+#display {
+    font-size: 5em;
+    border-bottom: 1px solid #cf2d2d;
+}
+
+p {
+    margin: 1em auto;
+}
+
+p strong {
+    color: #333;
+}
+
+.button {
+    padding-top: 2em;
+}
+
+footer {
+    padding-top: 3em;
+}
+
+footer a:link, footer a:visited {
+    color: #e81c4f;
+}
+
+footer a:hover {
+    color: #83231c;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 601px) {
+    #date {
+        font-size: 1em;
+    }
+
+    #display {
+        font-size: 2.5em;
+        border-bottom: 1px solid #cf2d2d;
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media screen (min-width: 1200px) {
+    #date {
+        margin-top: 1em;
+        font-size: 2em;
+    }
+
+    #display {
+        font-size: 5em;
+        border-bottom: 1px solid #cf2d2d;
+    }
+
+}

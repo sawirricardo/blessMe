@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bless me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <!-- Font Google -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    
+
+</head>
+<body onload="startTime(); startDate()">
+    
+<main role="main">
+    
+    <div class="container">
+        <div id="date"></div>
+        <div id="display"></div>
+        <p id="verseDisplay">
+            "<strong>Come to Me, all who are weary and heavily burdened [by religious rituals that provide no peace], and I will give you rest
+            [refreshing your souls with salvation]</strong>."
+            <br><br>
+            Matthew 11:28-30
+        </p>
+            
+        <div class="button">
+            <button onclick="newVerse()" type="button" class="btn btn-danger">Bless me!</button>
+            <a id="twitter-share-anchor" href="https://twitter.com/intent/tweet?text=Come%20to%20Me,%20all%20who%20are%20weary%20and%20heavily%20burdened%20[by%20religious%20rituals%20that%20provide%20no%20peace],%20and%20I%20will%20give%20you%20rest%20[refreshing%20your%20souls%20with%20salvation].--Matthew%2011:28-30"
+            target="_blank">
+            <button type="button" class="btn btn-outline-danger" aria-hidden="true">Share!</button>
+             </a>
+        </div>    
+        
+        <footer>
+            <p>Made by <a href="https://twitter.com/Rchangel">Ricardo Sawir</a></p>
+            <a href="https://github.com/sawirricardo" target="_blank">
+                <i class="fab fa-github fa-2x"></i>
+            </a>
+            <a href="https://www.freecodecamp.org/sawirricardo" target="_blank">
+                <i class="fab fa-free-code-camp fa-2x"></i>
+            </a>
+            <a href="https://stackoverflow.com/users/9478774/ricardo-sawir" target="_blank">
+                <i class="fab fa-stack-overflow fa-2x"></i>
+            </a>
+            <a href="https://codepen.io/sawirricardo/" target="_blank">
+                <i class="fab fa-codepen fa-2x"></i>
+            </a>
+        </footer>
+    
+        
+        
+        
+        <!-- I Intend to use this code for facebook share button
+            <a href="https://www.facebook.com/sharer/sharer.php?u=example.org" target="_blank">
+            <div id="shareBtn" class="btn btn-success clearfix">Share this!</div>
+        </a> -->
+    
+        
+    </div>
+    
+</main> 
+    
+    <script src="script.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
+        crossorigin="anonymous"></script>
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+</html>
